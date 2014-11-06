@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>"Terrible Twitch Copy"</title>
+        <meta charset="utf-8">
+        <style type="text/css">
+            
+            .account-info * {
+                margin-left: 3%;
+                list-style-type:none;
+                list-style-image: url("list-icon.PNG");
+                color: black;
+                font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+                font-size: 92%;
+            }
+            .account-info h2{
+                 font-size: 140%;
+            }
+            .main-content .game-channel-contents  {
+                display: inline-block;
+                background-color: white;
+                float: left;
+            }
+            .main-content {
+                display: inline-block;
+            }
+            .game-channel-contents p {
+            
+            }
+            .left-nav {
+                float:left;
+                background-color: rgb(10,10,10);
+                
+            }
+            .main-content {
+                float:left;
+            }
+            .sign-up {
+                float:left;
+            }
+            .game-channel-contents  .game-cover-art {
+                width:130px; 
+                height: 181px;
+            }
+            body .nav-container {
+                <!--width:205px;-->
+                display: inline-block;
+                width: 15%;
+                height: 100vh;
+                position: absolute;
+                background-color: white;
+                margin: -4px;
+                
+
+            }
+            body .content-container {
+                display: inline-block;
+                position: absolute;
+                left: 15%;
+                right:30%;
+                <!--width:783px;-->
+                width: 550px;
+                height: 100vh;
+                background-color: white;
+                margin: -4px;
+
+            }
+            body .subscribe-container {
+                float:right;
+                position: absolute;
+                left: 70%;
+                width:427px;
+                height: 100vh;
+                background-color: white;
+                margin: -4px;
+            }
+            html body {
+                width: 100%;
+                height: 100%;
+                background-color: white;
+
+
+            }
+            .content-container .main-content form {
+
+            }
+            body .log-in,.sign-up {
+                background-color: purple;
+                color: white;
+                font-family: "Arial",serif;
+            }
+            body ul {
+                list-style-type: none;
+                padding-left: 0%;
+                color: grey;
+            }
+            .left-nav li {
+                left: 1%;
+            }
+            .viewers {
+                color:grey;
+                font-size: 80%;
+            }
+            .game-channel-title {
+                font-size: 90%;
+            }
+            .left-nav li button {
+                background-color:black;
+                color: grey;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="nav-container">
+        <!--Left sidebar-->
+        <div class="left-nav">
+        <form action="http://www.example.com" method="get">
+        <input class="search-box" type=search placeholder="Search"><br />
+        </form>
+        <ul>
+        <span class="list-title">Browse</span>
+        <li><a href=http://www.twitch.tv/directory><button><img src="games-nav-icon.png" width="24" height="24"/>Games</button></a></li>
+        <li><a href="http://www.twitch.tv/directory/all"><button><img src="channels-nav-icon.png" width="24" height="24"/>Channels</button></a></li>
+        <li><a href="http://www.twitch.tv/directory/videos/week"><button><img src="videos-nav-icon.png" width="24" height="24"/>Videos</button></a></li>
+        <li><a href="http://www.twitch.tv/directory/kabam"><button><img src="play-now-nav-icon.png" width="24" height="24">Play Now</button></a></li>
+        </ul>
+        <input class="log-in" type="submit" value="Log in">
+        <input class="sign-up" type="submit" value="Sign up">
+        
+        </div>
+        </div>
+        
+        <div class="content-container">
+        <!--Main content section-->
+        <div class="main-content">
+        <h2>All Games</h2>
+        <form action="http://www.example.com" method="get">
+        <input type="search" placeholder="Search">
+        </form>
+        <div class="game-channel-contents">
+        <a href="http://www.twitch.tv/directory/game/League%20of%20Legends">
+        <img class="game-cover-art" src="league-of-legends.png" alt="cover" title=""/>
+        </a>
+        <p class="game-channel-title">League of Legends</p>
+        <p class="viewers">168,999 viewers</p>
+        </div>
+        <div class="game-channel-contents">
+        <a href="http://www.twitch.tv/directory/game/Hearthstone%3A%20Heroes%20of%20Warcraft">
+        <img class="game-cover-art" src="hearthstone.png" alt="cover" title=""/>
+        </a>
+        <p class="game-channel-title">Hearthstone</p>
+        <p class="viewers">34,353 viewers</p>
+        </div>
+        <div class="game-channel-contents">
+        <a href="http://www.twitch.tv/directory/game/Destiny">
+        <img class="game-cover-art" src="destiny.png" alt="cover" title=""/>
+        </a>
+        <p class="game-channel-title">Destiny</p>
+        <p class="viewers">32,252 viewers</p>
+        </div>
+        <div class="game-channel-contents">
+        <a href="http://www.twitch.tv/directory/game/Dota%202">
+        <img class="game-cover-art" src="dota-2.png" alt="cover" title=""/>
+        </a>
+        <p class="game-channel-title">Dota 2</p>
+        <p class="viewers">30,899 viewers</p>
+        </div>
+        <div class="game-channel-contents">
+        <a href="http://www.twitch.tv/directory/game/Minecraft">
+        <img class="game-cover-art" src="minecraft.png" alt="cover" title=""/>
+        </a>
+        <p class="game-channel-title">Minecraft</p>
+        <p class="viewers">28,862 viewers</p>
+        </div>
+        <div class="game-channel-contents">
+        <a href="http://www.twitch.tv/directory/game/Gaming%20Talk%20Shows">
+        <img class="game-cover-art" src="gaming-talks-shows.png" alt="cover" title=""/>
+        </a>
+        <p class="game-channel-title">Gaming Talks Shows</p>
+        <p class="viewers">25,911 viewers</p>
+        </div>
+        <div class="game-channel-contents">
+        <a href="http://www.twitch.tv/directory/game/World%20of%20Warcraft%3A%20Mists%20of%20Pandaria">
+        <img class="game-cover-art" src="wow-mists-of-pandaria.png" alt="cover" title=""/>
+        </a>
+        <p class="game-channel-title">World of Warcraft</p>
+        <p class="viewers">14,221 viewers</p>
+        </div>
+        <div class="game-channel-contents">
+        <a href="http://www.twitch.tv/directory/game/StarCraft%20II%3A%20Heart%20of%20the%20Swarm">
+        <img class="game-cover-art" src="starcraft-2.png" alt="cover" title=""/>
+        </a>
+        <p class="game-channel-title">Starcraft</p>
+        <p class="viewers">12,551 viewers</p>
+        </div>
+        <div class="game-channel-contents">
+        <a href="http://www.twitch.tv/directory/game/Counter-Strike%3A%20Global%20Offensive">
+        <img class="game-cover-art" src="counter-strike.png" alt="cover" title=""/>
+        </a>
+        <p class="game-channel-title">Counter Strike</p>
+        <p class="viewers">8,442 viewers</p>
+        </div>
+        <div class="game-channel-contents">
+        <a href="http://www.twitch.tv/directory/game/Super%20Smash%20Bros.">
+        <img class="game-cover-art" src="super-smash-bros.png" alt="cover" title=""/>
+        </a>
+        <p class="game-channel-title">Super Smash Bros</p>
+        <p class="viewers">5,815 viewers</p>
+        </div>
+        </div>
+        </div>
+        
+        <div class="subscribe-container">
+        <!--Sign up/log in sidebar-->
+        <div class="account-info">
+        <h2>You're not logged in!</h2>
+        <pre>If you don't have an account, go ahead and <br />sign up. It takes like two seconds and it's totally <br />worth it</pre>
+        <ul>
+        <li>Follow channels you enjoy watching</li>
+        <li>Get notifications when they go live</li>
+        <li>Chat with your fellow viewers</li>
+        <li>Send and receive direct messages</li>
+        <li>Start your own broadcast</li>
+        </ul>
+        <input class="log-in" type="submit" value="Log in">
+        <input class="sign-up" type="submit" value="Sign up">
+        </div>
+        </div>
+        
+    </body>
+</html>
