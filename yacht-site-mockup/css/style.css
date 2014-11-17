@@ -1,0 +1,252 @@
+
+/**{
+    outline: 1px solid orange;font-family: sans-serif;
+}*/
+
+
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.grid {
+    margin: 0px auto;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.row {
+    width: 100%;
+    margin-bottom: 20px;
+    
+    
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+    float: left;
+    
+}
+
+.col-4 {
+    width: 33.33%;
+   
+}
+
+.col-5 {
+    width: 41.66%;
+    
+}
+
+.col-6 {
+    width: 50%;
+    float: left;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+   
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    
+}
+
+ul, li, ol {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    list-style-type: dec;
+    text-indent: 1em;
+    list-style-position: inside;
+}
+
+section, .article-info, .article-categories {
+    padding: 5px 50px;
+    
+}
+
+ol li {
+    text-indent: 0;   
+}
+
+.col-3 .col-12 {
+    text-align:center;
+    
+}
+
+.col-3 .col-12 li {
+    text-indent: 0;
+    
+}
+
+.col-3 ul {
+    list-style-type: none;
+}
+
+li {
+    padding: 5px 0px;
+}
+
+.fixed-container 
+{
+    position: fixed;
+    width: 22.5%;
+    color: white;
+    background-color: black;
+    height: 100vh;
+}
+
+.fixed-container > .col-12:first-of-type {
+    margin-top: 2em;   
+}
+.blog-author-image {
+    height:112px;
+    width: 112px;
+    border-radius: 56px;
+}
+
+.name {
+    font-size: 2em;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.job-title {
+    font-size: smaller;
+    color: grey;
+    font-family: serif;
+}
+
+.blog-author-title {
+    font-size: smaller;
+    font-family: serif;
+    font-style: italic;
+    padding: 25px 0px;
+}
+
+.site-nav > ul > li {
+   padding: 20px 0px;
+    border-top: thin solid grey;
+    border-bottom: thin solid grey;
+    text-transform: uppercase;
+}
+
+.site-nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.site-nav a:link {
+    color: white;   
+}
+
+.site-nav a:visited {
+    color: white;
+}
+.phone-number {
+    
+}
+
+.e-mail a { 
+    text-decoration: none;
+}
+
+.e-mail a:link {
+   color: white;
+    
+}
+
+.e-mail a:visited {
+    color: purple;
+   
+}
+
+.phone-number {
+    color: grey;
+}
+
+.article-info {
+    text-align: center; 
+    
+}
+.article-info > h1{
+    font-size: 3.4em;   
+}
+.article-info > span{
+    color: grey;
+    font-family: sans-serif;
+}
+
+figure {
+    
+    margin: 40px 0px 40px;
+}
+figcaption {
+    font-style: italic;
+    font-family: sans-serif;
+}
+
+
+
+section h2 {
+    font-size: 2em;
+}
+
+section:first-of-type, .concluding-paragraph{
+    font-weight: bold;
+}
+
+.article-contents *{
+    line-height: 1.4em;   
+}
+
+.article-contents ul {
+    margin: 10px 0px;   
+}
+
+.article-contents ul li {
+    line-height: normal;
+}
+
+.article-categories, .article-categories a {
+    color: grey;   
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
