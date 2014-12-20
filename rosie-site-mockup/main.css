@@ -1,0 +1,147 @@
+
+/* CSS Document */
+
+/**{
+    outline: thin solid orange;
+    
+}*/
+
+@media only screen and (min-width: 768px) {
+	.grid
+	{
+		max-width:90%;
+		outline: thick solid rgba(196, 22, 176, .43);
+    }
+}
+
+@media only screen and (max-width: 767px) {
+	.grid
+	{
+		max-width:90%;
+		outline:thick solid blue;
+    }
+}
+
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+	.grid
+	{
+		max-width:95%;
+		outline:thick solid green;
+    }
+}
+
+.grid
+{
+	width:100%;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	margin:0 auto;
+}
+
+.row
+{
+	display:flex;
+	flex-direction:column;
+	flex-wrap:wrap;
+	align-items:center;
+}
+
+.col-1
+{
+	width:8.333%;
+}
+
+.col-2
+{
+	width:16.666%;
+}
+
+.col-3
+{
+	width:25%;
+}
+
+.col-4
+{
+	width:33.333%;
+}
+
+.col-5
+{
+	width:41.666%;
+}
+
+.col-6
+{
+	width:50%;
+}
+
+.col-7
+{
+	width:58.333%;
+}
+
+.col-8
+{
+	width:66.666%;
+}
+
+.col-9
+{
+	width:75%;
+}
+
+.col-10
+{
+	width:83.333%;margin-bottom: 10%;
+}
+
+.col-11
+{
+	width:91.666px;
+}
+
+.col-12
+{
+	width:100%;
+}
+
+img
+{
+	max-width:100%;
+	height:auto;
+}
+
+ul
+{
+	list-style:none;
+	padding:0;
+}
+
+h3 {
+   text-align: left;
+   
+}
+
+.no-space {
+    word-break:break-all;
+}
+
+/*body
+{
+	font-size:medium;
+	word-break:normal;
+	word-wrap:normal;
+	word-spacing:.7em;
+}*/
+/*.grid > .col-2, .grid > .col-4 {
+    float: left;
+}
+.col-2 > .row, .col-4 > .row
+{
+
+}
+.col-12{
+    border-top: thin solid grey; 
+}*/
