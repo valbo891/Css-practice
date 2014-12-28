@@ -1,0 +1,319 @@
+
+*{
+     /*outline: 1px solid orange; */
+}
+
+/*@media only screen and (min-width: 768px) {
+	.grid
+	{
+		max-width:760px;
+        min-width: 760px;
+		outline: thick solid rgba(196, 22, 176, .43);
+    }
+}
+
+@media only screen and (max-width: 767px) {
+	.grid
+	{
+		max-width:90%;
+		outline:thick solid blue;
+    }
+}
+
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+	.grid
+	{
+		max-width:95%;
+		outline:thick solid green;
+    }
+    .snippet-image{
+        display: none;  
+    }
+}*/
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    max-width:760px;
+    min-width: 760px;
+    
+}
+
+.grid {
+    margin: 0px auto;
+    /*max-width: 1200px;*/
+    width: 100%;
+    
+}
+
+.row {
+    width: 100%;
+    
+    
+    
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+    float:left;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+    float:left;
+}
+
+.col-10 {
+    width: 83.33%;
+   
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.clear {
+    clear: both;
+}
+
+[class*= "col-12"]
+{
+    
+}
+
+#header-left, #header-right {
+    float:left;
+    
+}
+
+#header-left li{
+    display: inline-block;
+    background-color: #294E56;
+    padding: 0px 30px 0px 0px;
+    width: 90px;
+    margin-right: -3px;
+    box-shadow: 0px 5px #FDE38F
+}
+
+#header-left li a{
+    color: #D6ECAE;
+    font-size: .9em;
+    font-family: arial;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+div[class*="snippet-image"],div[class*="snippet-text"]
+{
+    float:left;
+}
+
+.story-snippets h2 {
+    margin: 0em;
+}
+
+.announcements {
+       
+}
+
+.announcements * {
+    font-size: 80.90%; 
+    font-family: sans-serif;
+}
+
+#first-image {
+    border: .8em solid #FDD041;   
+}
+
+#second-image {
+    border: .8em solid #73AFB7;   
+}
+
+#third-image {
+    border: .8em solid #FBEF99;   
+}
+
+.story-snippets {
+       
+    border-top: 1em solid; 
+    float: right;
+}
+
+
+
+.snippet-image  {
+    text-align: right;   
+}
+
+.announcements {
+    margin: 0 auto;
+    
+}
+
+
+
+.right-nav .row > a {
+    text-decoration: none; 
+    font-size: .91em;
+}
+
+ header, .content {
+    border: thin solid grey;   
+}
+
+[class*=main-content] {
+    
+    
+}
+
+/* Properties exluding float are for making an empty div adjust its dimensions according to the backgroun-image(otherwise background is invisible because div has height of 0) */
+#main-feature {
+    float:right;
+    background-image: url(images/tomato.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 36.26%; /* (img-height / img-width * width) */
+                /* (853 / 1280 * 100) */
+    width:100%;
+    height: 0;
+    position: relative;
+    
+}
+
+#header-left ul:nth-child(0n+2)  {
+    padding-left: 0px;
+}
+
+#header-left ul:nth-child(0n+2) li a {
+   text-decoration: none;
+}
+
+#header-right img{
+    width: 345px;
+    height: 100px;
+}
+
+.content {
+    margin-top: -15px;   
+}
+
+.story-snippets:nth-child(0n+4)
+{
+    border-top: .8em solid #FDD041; 
+}
+
+.story-snippets:nth-child(0n+6)
+{
+    border-top: .8em solid #73AFB7; 
+}
+
+.story-snippets:nth-child(0n+8)
+{
+    border-top: .8em solid #FBEF99; 
+}
+
+.snippet-text p a:nth-child(0n+1)
+{
+    background-color: #D6ECAE;
+    text-decoration: none;
+}
+
+.main-feature-title {
+    color:  #D6ECAE; 
+    font-size: 1.7em;
+     
+    font-family: sans-serif;
+}
+
+.main-feature-subtitle {
+    color:  #FBEF99;
+    font-size: 2em;
+   
+    font-family: sans-serif;
+}
+
+.snippet-image img[id*=image] {
+    width: 100px;
+    height: 90px;
+}
+
+.snippet-text h2 {
+    color: #294E56;
+    font-size: 1.2em;
+    font-family: sans-serif;
+    
+}
+
+#main-feature-text *{
+    
+   
+    display: block;
+}
+
+.main-content .row {
+    position: relative;   
+}
+
+#main-feature-text {
+    position: absolute;
+    top: 17%;
+    left: 8%;
+}
+
+.snippet-text p {
+    margin: 0px;
+}
+
+.announcement-container {
+    margin: 0 auto;
+    background-image: url("images/announce_bg.png");
+}
+
+#header-right-inner {
+    background-image: url(images/banner-flower.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 28.98%; /* (img-height / img-width * width) */
+                /* (853 / 1280 * 100) */
+    width:100%;
+    height: 0;
+}
