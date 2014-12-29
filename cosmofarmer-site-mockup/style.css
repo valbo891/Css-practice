@@ -298,6 +298,9 @@ div[class*="snippet-image"],div[class*="snippet-text"]
     top: 17%;
     left: 8%;
 }
+footer .row div {
+    float:right;   
+}
 
 .snippet-text p {
     margin: 0px;
@@ -323,4 +326,16 @@ div[class*="snippet-image"],div[class*="snippet-text"]
 	background-image: url("images/banner-flower.jpg");
 	background-repeat: no-repeat;
 	background-position: bottom right;
+}
+
+.snippet-text a {
+    color: #102536;
+    font-weight: 600;
+    font-family: sans-serif;
+    font-size: .80em;
+}
+
+.main-content .row div.story-snippets:nth-of-type(0n+4)
+{
+    margin-top: 15px;   
 }
