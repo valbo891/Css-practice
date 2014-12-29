@@ -152,10 +152,10 @@ div[class*="snippet-image"],div[class*="snippet-text"]
 }
 
 .announcements {
-       
+    
 }
 
-.announcements * {
+.announcements h3, .announcements p {
     font-size: 80.90%; 
     font-family: sans-serif;
 }
@@ -198,6 +198,10 @@ div[class*="snippet-image"],div[class*="snippet-text"]
 
  header, .content {
     border: thin solid grey;   
+}
+
+.main-content {
+    border-right: thin solid grey;   
 }
 
 [class*=main-content] {
@@ -309,6 +313,7 @@ footer .row div {
 .announcement-container {
     margin: 0 auto;
     background-image: url("images/announce_bg.png");
+    
 }
 
 #header-right-inner {
@@ -338,4 +343,21 @@ footer .row div {
 .main-content .row div.story-snippets:nth-of-type(0n+4)
 {
     margin-top: 15px;   
+}
+
+.announcements h3 {
+    margin: 0px;
+}
+
+.announcement-container .row {
+    border-top: 12px solid #294E56; 
+    
+}
+
+.announcement-container .row *{
+    color: #294E56;
+}
+
+.announcement-container .row div {
+    border-bottom: thin solid #294E56;  
 }
