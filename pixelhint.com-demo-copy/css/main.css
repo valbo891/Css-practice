@@ -1,0 +1,87 @@
+.left-col {
+    float: left; 
+    width: 15%;
+    position: fixed;
+    
+}
+.logo-container {
+    position: static;
+    margin: 40% 4% 40% 4%;
+}
+nav {
+    position: relative;
+}
+ul {
+    position: relative; 
+    list-style-type: none;
+}
+ul li {
+    margin-left: -18%;
+    margin-bottom: 20%;
+    font-family: sans-serif;
+    font-size: .9em;
+}
+li a:visited {
+    color: grey;   
+}
+nav a {
+    color: black;
+    text-decoration: none;
+}
+.social-media {
+   position: static;
+    padding-left: 5%;
+}
+.copyright-info {
+   position: static;
+    font-size: smaller;
+    line-height: 3px;
+    text-align:left;
+}
+.bold {
+    font-weight: bolder; 
+}
+.main-content {
+    float: left;
+    width: 85%;
+    margin-left: 20%;
+}
+.sample-container {
+    float: left;
+    position:relative;
+    
+}
+.sample-container img {
+    width: 354px;
+    height: 354px;
+    opacity: 1;
+    position: relative;
+    z-index: 4;
+}
+.sample-container img:hover {
+    width: 354px;
+    height: 354px;
+    opacity: 0;
+    
+}
+.inner-text-container {
+    top: 48%;
+    left: 13%;
+    position: absolute;
+    padding: 15px 0px;
+    border-top: thin solid grey;
+    border-bottom: thin solid grey;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 1.1em;
+    color: black;
+    
+    
+    
+}
+.inner-text-container:hover {
+    
+}
+.sample-container a img{
+    
+}
